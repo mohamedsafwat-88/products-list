@@ -1,0 +1,54 @@
+/* general body */
+body {
+  background-color: #f8f9fa; /* رمادي فاتح */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* product card */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* product image */
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+/* product title */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* product description */
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* product price */
+.card .fw-bold {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+/* add to cart button */
+.card .btn {
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.card .btn:hover {
+  background-color: #0056b3;
+}
